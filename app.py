@@ -4,7 +4,6 @@ import torch
 from transformers import AutoProcessor, AutoModelForImageClassification
 import torchvision.transforms as T
 import matplotlib.pyplot as plt
-import cv2
 
 # open image
 uploaded = st.file_uploader("Upload a chest X‑ray (PNG/JPG)", type=["png", "jpg", "jpeg"])
